@@ -100,18 +100,6 @@ icon = "ti-facebook"
 link = "#"
 title = "facebook"
 [[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-title = "twitter"
-[[params.social]]
 icon = "ti-instagram"
 link = "#"
 title = "instagram"
-[[params.social]]
-icon = "ti-github"
-link = "#"
-title = "github"
-[[params.social]]
-icon = "ti-linkedin"
-link = "#"
-title = "linkedin"
