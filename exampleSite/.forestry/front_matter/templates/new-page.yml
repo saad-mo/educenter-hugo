@@ -15,4 +15,4 @@ fields:
   label: bg image
   description: page header background image
 pages:
-- exampleSite/content/english/pages/adacemy.md
+- exampleSite/content/english/pages/academy.md
