@@ -35,17 +35,17 @@ name = "scholarship"
 URL = "research"
 name = "research"
 [[menu.main]]
-URL = "about"
-name = "About"
-weight = 1
-[[menu.main]]
 URL = "academy"
 name = "academy"
 weight = 2
 [[menu.main]]
-URL = "blog"
-name = "blog"
+URL = "jobs"
+name = "Jobs"
 weight = 4
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 1
 [[menu.main]]
 URL = "contact"
 name = "Contact"
