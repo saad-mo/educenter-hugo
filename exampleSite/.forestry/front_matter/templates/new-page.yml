@@ -15,4 +15,5 @@ fields:
   label: bg image
   description: page header background image
 pages:
+- academy/academy.md
 - exampleSite/content/english/pages/academy.md
