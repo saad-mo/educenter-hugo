@@ -52,14 +52,14 @@ name = "Contact"
 weight = 5
 [params]
 address = "1751 S. O'Plaine Road Libertyville, IL 60048"
-author = "Themefisher"
+author = "Al Ihsan"
 contact_form_action = "#"
-description = "This is meta description"
+description = ""
 email = "admin@alihsanschool.com"
 google_analitycs_id = ""
 logo = "images/logo.png"
 mobile = "(703) 663-0800"
-top_header = false
+top_header = true
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
