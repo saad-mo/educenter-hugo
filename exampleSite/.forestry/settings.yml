@@ -8,14 +8,7 @@ sections:
   label: Blog Post
 - type: directory
   path: exampleSite/content/english/blog
-  label: Post (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
+  label: Post
   create: documents
   match: "**/*"
   templates:
@@ -24,14 +17,7 @@ sections:
   label: Author
 - type: directory
   path: exampleSite/content/english/author
-  label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
+  label: Author
   create: documents
   match: "**/*"
   templates:
@@ -40,14 +26,7 @@ sections:
   label: Course
 - type: directory
   path: exampleSite/content/english/course
-  label: Course (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - course
-- type: directory
-  path: exampleSite/content/french/course
-  label: Course (fr)
+  label: Course
   create: documents
   match: "**/*"
   templates:
@@ -56,14 +35,7 @@ sections:
   label: Notice
 - type: directory
   path: exampleSite/content/english/notice
-  label: Notice (en)
-  create: all
-  match: "**/*"
-  templates:
-  - notice
-- type: directory
-  path: exampleSite/content/french/notice
-  label: Notice (fr)
+  label: Notice
   create: all
   match: "**/*"
   templates:
@@ -72,14 +44,7 @@ sections:
   label: Teacher
 - type: directory
   path: exampleSite/content/english/teacher
-  label: Teacher (en)
-  create: all
-  match: "**/*"
-  templates:
-  - teacher
-- type: directory
-  path: exampleSite/content/french/teacher
-  label: Teacher (fr)
+  label: Teacher
   create: all
   match: "**/*"
   templates:
@@ -88,14 +53,7 @@ sections:
   label: Event
 - type: directory
   path: exampleSite/content/english/event
-  label: Event (en)
-  create: all
-  match: "**/*"
-  templates:
-  - event
-- type: directory
-  path: exampleSite/content/french/event
-  label: Event (fr)
+  label: Event
   create: all
   match: "**/*"
   templates:
@@ -104,14 +62,7 @@ sections:
   label: Research
 - type: directory
   path: exampleSite/content/english/research
-  label: Research (en)
-  create: all
-  match: "**/*"
-  templates:
-  - research
-- type: directory
-  path: exampleSite/content/french/research
-  label: Research (fr)
+  label: Research
   create: all
   match: "**/*"
   templates:
@@ -120,14 +71,7 @@ sections:
   label: Scholarship
 - type: directory
   path: exampleSite/content/english/scholarship
-  label: Scholarship (en)
-  create: all
-  match: "**/*"
-  templates:
-  - scholarship
-- type: directory
-  path: exampleSite/content/french/scholarship
-  label: Scholarship (fr)
+  label: Scholarship
   create: all
   match: "**/*"
   templates:
@@ -136,48 +80,24 @@ sections:
   label: Others Pages
 - type: directory
   path: exampleSite/content/english/about
-  label: About (en)
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/french/about
-  label: About (fr)
+  label: About
   create: none
   match: "*"
 - type: directory
   path: exampleSite/content/english/contact
-  label: Contact (en)
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/french/contact
-  label: Contact (fr)
+  label: Contact
   create: none
   match: "*"
 - type: directory
   path: exampleSite/content/english/pages
-  label: Created Pages (en)
+  label: Created Pages
   create: documents
   match: "**/*"
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/french/pages
-  label: Created Pages (fr)
-  create: all
-  match: "**/*"
-  templates:
-  - new-page
-- type: directory
   path: exampleSite/content/english
-  label: All Pages (en)
-  create: all
-  match: "**/*"
-  templates:
-  - new-page
-- type: directory
-  path: exampleSite/content/french
-  label: All Pages (fr)
+  label: All Pages
   create: all
   match: "**/*"
   templates:
@@ -186,12 +106,7 @@ sections:
   label: Data
 - type: directory
   path: exampleSite/data/en
-  label: Data (en)
-  create: all
-  match: "**/*"
-- type: directory
-  path: exampleSite/data/fr
-  label: Data (fr)
+  label: Data
   create: all
   match: "**/*"
 - type: directory
