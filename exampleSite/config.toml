@@ -39,33 +39,9 @@ URL = "about"
 name = "About"
 weight = 1
 [[menu.main]]
-URL = "course"
-name = "course"
+URL = "academy"
+name = "academy"
 weight = 2
-[[menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 3
-[[menu.main]]
-URL = "teacher"
-name = "teacher"
-parent = "Pages"
-[[menu.main]]
-URL = "notice"
-name = "notice"
-parent = "Pages"
-[[menu.main]]
-URL = "event"
-name = "event"
-parent = "Pages"
-[[menu.main]]
-URL = "scholarship"
-name = "scholarship"
-parent = "Pages"
-[[menu.main]]
-URL = "research"
-name = "research"
-parent = "Pages"
 [[menu.main]]
 URL = "blog"
 name = "blog"
