@@ -43,9 +43,17 @@ URL = "jobs"
 name = "Jobs"
 weight = "3"
 [[menu.main]]
+URL = "documents"
+name = "Documents"
+weight = "4"
+[[menu.main]]
 URL = "about"
 name = "About"
 weight = 1
+[[menu.main]]
+URL = "donate"
+name = "Donate"
+weight = ""
 [[menu.main]]
 URL = "contact"
 name = "Contact"
