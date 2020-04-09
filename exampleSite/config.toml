@@ -89,7 +89,7 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif"
 [params.subscription]
 enable = true
