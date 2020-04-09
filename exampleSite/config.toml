@@ -75,15 +75,15 @@ URL = "contact"
 name = "Contact"
 weight = 5
 [params]
-address = "9567 Turner Trace Apt. BC C3G8A4"
+address = "1751 S. O'Plaine Road Libertyville, IL 60048"
 author = "Themefisher"
 contact_form_action = "#"
 description = "This is meta description"
-email = "info@educenter.com"
+email = "admin@alihsanschool.com"
 google_analitycs_id = ""
 logo = "images/logo.png"
-mobile = "+211234565523"
-top_header = true
+mobile = "(703) 663-0800"
+top_header = false
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
