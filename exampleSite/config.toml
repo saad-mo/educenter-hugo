@@ -1,10 +1,10 @@
 baseURL = "https://alihsan-academy.netlify.com/"
 disableLanguages = []
-disqusShortname = "educenter"
+disqusShortname = "alihsan"
 paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
-title = "Educenter | hugo education template"
+title = "Al Ihsan Academy "
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
