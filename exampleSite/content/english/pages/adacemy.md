@@ -1,7 +1,7 @@
 +++
 bg_image = ""
 description = "Academy page"
-title = "Adacemy"
+title = "Academy"
 
 +++
-this is the academy page
+this is the Academy page
