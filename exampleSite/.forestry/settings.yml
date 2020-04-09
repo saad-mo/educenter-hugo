@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: academy
+  label: academy
+  create: documents
+  match: "**/*"
+  templates:
+  - new-page
+- type: directory
   path: exampleSite/content/english/blog
   label: Post
   create: documents
