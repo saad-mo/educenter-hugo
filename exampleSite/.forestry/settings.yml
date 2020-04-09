@@ -4,8 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Blog Post
 - type: directory
   path: exampleSite/content/english/blog
   label: Post
@@ -13,8 +11,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Author
 - type: directory
   path: exampleSite/content/english/author
   label: Author
@@ -22,8 +18,6 @@ sections:
   match: "**/*"
   templates:
   - author
-- type: heading
-  label: Course
 - type: directory
   path: exampleSite/content/english/course
   label: Course
@@ -31,8 +25,6 @@ sections:
   match: "**/*"
   templates:
   - course
-- type: heading
-  label: Notice
 - type: directory
   path: exampleSite/content/english/notice
   label: Notice
@@ -40,8 +32,6 @@ sections:
   match: "**/*"
   templates:
   - notice
-- type: heading
-  label: Teacher
 - type: directory
   path: exampleSite/content/english/teacher
   label: Teacher
@@ -49,8 +39,6 @@ sections:
   match: "**/*"
   templates:
   - teacher
-- type: heading
-  label: Event
 - type: directory
   path: exampleSite/content/english/event
   label: Event
@@ -58,8 +46,6 @@ sections:
   match: "**/*"
   templates:
   - event
-- type: heading
-  label: Research
 - type: directory
   path: exampleSite/content/english/research
   label: Research
@@ -67,8 +53,6 @@ sections:
   match: "**/*"
   templates:
   - research
-- type: heading
-  label: Scholarship
 - type: directory
   path: exampleSite/content/english/scholarship
   label: Scholarship
@@ -76,8 +60,6 @@ sections:
   match: "**/*"
   templates:
   - scholarship
-- type: heading
-  label: Others Pages
 - type: directory
   path: exampleSite/content/english/about
   label: About
@@ -102,8 +84,6 @@ sections:
   match: "**/*"
   templates:
   - new-page
-- type: heading
-  label: Data
 - type: directory
   path: exampleSite/data/en
   label: Data
@@ -114,8 +94,6 @@ sections:
   label: i18n
   create: documents
   match: "**/*"
-- type: heading
-  label: Configuration
 - type: directory
   path: exampleSite
   label: Configuration
